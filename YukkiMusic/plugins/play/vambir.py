@@ -7,23 +7,23 @@ from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 
 
 @app.on_message(
-     command(["مبرمج السورس","فمبير","المبرمج"])
+     command(["المطور","مطور","فيرس","المبرمج"])
     & ~filters.edited
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/e70a5c7bbce858cee91ac.jpg",
+        photo=f"https://t.me/music_rio_bot",
         caption=f"""◍ الزرار الاول: قناه السورس \n◍ الزرار الثاني: هو مبرمج السورس\n√""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                 InlineKeyboardButton(
-                    "🔮𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝘼𝙈𝘽𝙄𝙍🔮", url=f"https://t.me/XxvprxX"
+                    "𓆩 ˹𝚂𝙾𝚞𝚁𝙲𝙴 𝙺𝙰𝚁𝙼𝙰𝙽˼ 𓆪", url=f"https://t.me/YDDCJ"
                 ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧", url=f"https://t.me/XxlllllllllllllllllllllllllllxX"),
+                        "#،𝙑𝒗 𝙄𝒊 𝙍𝒓 𝙐𝒖 𝙎𝒔 💎⛓", url=f"https://t.me/VR_LA"),
                 ],
             ]
         ),
