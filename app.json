@@ -1,7 +1,7 @@
 {
-    "name": "VAMBIR/MUSIC",
+    "name": "Yukki Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/e70a5c7bbce858cee91ac.jpg",
+    "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
     "python3",
     "telegram",
@@ -14,82 +14,47 @@
     "stack": "container",
     "env": {
       "API_ID": {
-        "description": "حط هنا الايبي ايدي",
-        "value": "10729094",
+        "description": "Get this value from https://my.telegram.org",
+        "value": "14773648",
         "required": true
       },
       "API_HASH": {
-        "description": "حط هنا الايبي هاش",
-        "value": "038b0b405782d91cbb32f60e917c1c6e",
+        "description": "Get this value from https://my.telegram.org",
+        "value": "e31400e7ee36dc9761b61da470967daa",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
         "description": "If you want your assistant to leave all chats automatically after some time.",
-        "value": "True",
-        "required": true
+        "value": "False",
+        "required": false
       },
       "BOT_TOKEN": {
-        "description": "حط هنا توكن بوتك .",
-        "value": "",
-        "required": true
-      },
-      "GIT_TOKEN": {
-        "description": "حط هنا توكن بوتك .",
-        "value": "",
-        "required": true
-      },  
-      "BOT_USERNAME": {
-        "description": "حط هنا يوزر البوت بدون @ ينجم .",
-        "value": "VPllllllbot",
+        "description": "A Bot's token from Botfather",
+        "value": "5380356568:AAE8PpwD-ns5hL3AlSXOl1U9URB0fFP6Xno",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "حط هنا كود المونجو .",
-        "value": "mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority",
-        "required": false
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
+        "value": "mongodb+srv://mhmd:mhmd@cluster0.knp5tug.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
       },
       "MUSIC_BOT_NAME": {
-        "description": "حط اسم البوت انجلش كابيتال زيي - VAMBIR.",
-        "value": "VAMBIR",
-        "required": true
-      },
-      "NAME_BOT": {
-        "description": "حط اسم البوت ب العربي زي فمبير .",
-        "value": "فمبير",
-        "required": true
-      },
-      "OWNER": {
-        "description": "حط هنا يوزر المطور منغير علامه @ .",
-        "value": "XxlllllllllllllllllllllllllllxX",
-        "required": true
-      },
-      "OWNER_USER": {
-        "description": "حط هنا يوزر المطور بعلامه @ .",
-        "value": "@XxlllllllllllllllllllllllllllxX",
+        "description": "A name for your Music Bot. Please don't use ascii characters",
+        "value": "Dj Rio",
         "required": true
       },
       "OWNER_ID": {
-        "description": "حط هنا ايدي المطور ينجم .",
-        "value": "2093265110",
-        "required": true
-      },
-      "IMG_DEV1": {
-        "description": "حط لينك صورة المطور ينجم .",
-        "value": "https://telegra.ph/file/e70a5c7bbce858cee91ac.jpg",
-        "required": true
-      },
-      "IMG_BOT1": {
-        "description": "حط لينك صورة البوت ينجم .",
-        "value": "https://telegra.ph/file/b6d7f12c06eb782447c7e.png",
+        "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
+        "value": "5541009328",
         "required": true
       },
       "STRING_SESSION": {
-        "description": "حط كود الجلسه هنا .",
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
       "STRING_SESSION2": {
-        "description": "حط كود الجلسه هنا 2.",
+        "description": "A Pyrogram String Session. two.",
         "value": "",
         "required": true
       },
@@ -99,27 +64,37 @@
         "required": false
       },
       "HEROKU_APP_NAME": {
-        "description": "حط اول اسم كتبتوو فوق",
+        "description": "Your heroku app/bot's name",
         "value": "",
         "required": false
       },
       "LOG_GROUP_ID": {
-        "description": "حط ايدي جروب البوتات وارفع البوت والحساب المساعد مشرف الاول .",
-        "value": "-1001615880226",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
+        "value": "-1001553259020",
         "required": true
       },
-      "START_IMG_URL": {
-        "description": "Telegraph Image URL For Start Command",
-        "value": "https://telegra.ph/file/b6d7f12c06eb782447c7e.png",
-        "required": true
-      },      
       "UPSTREAM_REPO": {
-        "description": "سيبها زي مهيا .",
-        "value": "https://github.com/VamBIR/end",
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/Devmhmd/virus-yukki",
         "required": true
       },
       "UPSTREAM_BRANCH": {
         "description": "Upstream Repo's Branch Name",
+        "value": "master",
+        "required": true
+        },
+      "START_IMG_URL": {
+        "description": "START IMG URL",
+        "value": "https://telegra.ph/file/b07d6ae56e15c22826346.jpg",
+        "required": true
+        },
+      "SUPPORT_GROUP": {
+        "description": "https://t.me/alcoontorol",
+        "value": "master",
+        "required": true
+        },
+      "SUPPORT_CHANNEL": {
+        "description": "https://t.me/YDDCJ",
         "value": "master",
         "required": true
       }
@@ -140,6 +115,5 @@
               "quantity": 1,
               "size": "free"
           }
-      },
-      "stack": "container"
+      }
   }
