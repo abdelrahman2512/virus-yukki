@@ -30,7 +30,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "5380356568:AAE8PpwD-ns5hL3AlSXOl1U9URB0fFP6Xno",
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -89,13 +89,13 @@
         "required": true
         },
       "SUPPORT_GROUP": {
-        "description": "https://t.me/alcoontorol",
-        "value": "master",
+        "description": "الدعم",
+        "value": "https://t.me/alcoontorol",
         "required": true
         },
       "SUPPORT_CHANNEL": {
-        "description": "https://t.me/YDDCJ",
-        "value": "master",
+        "description": "القناه",
+        "value": "https://t.me/YDDCJ",
         "required": true
       }
     },
