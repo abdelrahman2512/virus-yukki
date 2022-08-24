@@ -88,6 +88,11 @@
         "value": "",
         "required": true
       },
+      "STRING_SESSION2": {
+        "description": "حط كود الجلسه هنا 2.",
+        "value": "",
+        "required": true
+      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
